@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFAF2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card-geral{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-container{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 519px;
+    height: 471px;
+
+
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #212D59;
+}   
+
+
+.emojis{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 72px;
+    margin: 67px;
+    text-align: center;
+
+}
+
+.emojis p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #212D59;
+    font-weight: 500px;
+}
+
+button{
+    all:unset;
+    background: #2F2D2C;
+    border-radius: 5px;
+    width: 208px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 55px;
+
+}
+
+#ordem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.card-container2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+    border-radius: 15px;
+    width: 402px;
+    height: 374px;
+}
+
+.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+#end{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #212D59;
+}
+
+#ultimop{
+    margin-top:40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212D59;
+}
+
+.card-geral.button-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-container2 .button-end button{
+    width: 134px;
+    height: 55px;
+    margin: 34px;
+}
+
+.card-container2 .button-end a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212D59;
+    opacity: 0.5;
+    margin-left: 30px;
+    text-decoration: none;
+    
+}
+
+#fechar{
+    justify-content: center;
+    align-items: center;
+    margin-left: 475px;
+    margin-top: 20px;
+    
+}
+
+#fechar2{
+    justify-content: center;
+    align-items: center;
+    margin-left: 358px;
+    margin-top: 15px;
+}
